@@ -31,7 +31,7 @@ const Item = ({
       {/* Image Section */}
       <div className="flex justify-center w-full h-60 md:h-72 lg:h-80">
   <img
-    src="https://as2.ftcdn.net/v2/jpg/09/72/33/73/1000_F_972337343_ulUjR0IzuGB4KVobBIQyg3gyJIoYWSh7.jpg"
+    src={img}
     alt={`img/item-img/${id}`}
     className="h-full w-full object-cover rounded-t-xl"
   />

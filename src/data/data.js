@@ -8,22 +8,22 @@ import vcover1 from "../assets/video/vcover1.png";
 import vcover2 from "../assets/video/vcover2.png";
 import vcover3 from "../assets/video/vcover3.png";
 
-import psale1 from "../assets/nike-air-red.png";
-import psale2 from "../assets/nike-adapt-bb.png";
-import psale3 from "../assets/nike-adapt-bb-smart.png";
+import psale1 from "../assets/product1.jpg";
+import psale2 from "../assets/product5.jpg";
+import psale3 from "../assets/product8.jpg";
 
-import product1 from "../assets/product1.png";
-import product2 from "../assets/product2.png";
-import product3 from "../assets/product3.png";
-import product4 from "../assets/product4.png";
-import product5 from "../assets/product5.png";
-import product6 from "../assets/product6.png";
-import product7 from "../assets/product7.png";
-import product8 from "../assets/product8.png";
-import product9 from "../assets/product9.png";
-import product10 from "../assets/product10.png";
-import product11 from "../assets/product11.png";
-import product12 from "../assets/product12.png";
+import product1 from "../assets/product1.jpg";
+import product2 from "../assets/product2.jpg";
+import product3 from "../assets/product3.jpg";
+import product4 from "../assets/product4.jpg";
+import product5 from "../assets/product5.jpg";
+import product6 from "../assets/product6.jpg";
+import product7 from "../assets/product7.jpg";
+import product8 from "../assets/product8.jpg";
+import product9 from "../assets/product9.jpg";
+import product10 from "../assets/product10.jpg";
+import product11 from "../assets/product11.jpg";
+import product12 from "../assets/product12.jpg";
 
 
 import facebook from "../assets/facebook.svg";
