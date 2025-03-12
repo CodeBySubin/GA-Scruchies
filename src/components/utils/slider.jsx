@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import product4 from "../../assets/product4.jpg";
+import product3 from "../../assets/product3.jpg";
+import product10 from "../../assets/product10.jpg";
 
 const Slider = () => {
-  const slides = [
-    "src/assets/product8.jpg",
-    "src/assets/product4.jpg",
-    "src/assets/product3.jpg",
-  ];
+  const slides = [product10, product4, product3];
 
   const [current, setCurrent] = useState(0);
 
