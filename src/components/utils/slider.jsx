@@ -3,9 +3,9 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Slider = () => {
   const slides = [
-    "https://www.jiomart.com/images/product/original/rvvbidhv5e/starvis-luxury-6pcs-organza-scrunchie-for-women-girls-mermaid-holographic-soft-xl-scrunchies-hair-tie-shining-anti-hair-breakage-scrunchies-set-for-girls-women-best-gift-for-sister-friend-mom-product-images-rvvbidhv5e-0-202302231312.jpg?im=Resize=(1000,1000)",
-    "https://mesmerizeindia.com/cdn/shop/files/ScsSatC09Adu3_98171.jpg?v=1736173216&width=800",
-    "https://curlcare.in/cdn/shop/files/satin-hair-scrunchie-single-jumbo-765280.jpg?v=1734116520&width=1400",
+    "src/assets/product8.jpg",
+    "src/assets/product4.jpg",
+    "src/assets/product3.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
@@ -31,7 +31,7 @@ const Slider = () => {
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {slides.map((slide, index) => (
-          <div key={index} className="w-full flex-shrink-0 ">
+          <div key={index} className="w-full h-full flex-shrink-0">
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
