@@ -3,6 +3,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import product4 from "../../assets/product4.jpg";
 import product3 from "../../assets/product3.jpg";
 import product10 from "../../assets/product10.jpg";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 const Slider = () => {
   const slides = [product10, product4, product3];
@@ -43,15 +44,16 @@ const Slider = () => {
       {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 sm:left-5 transform -translate-y-1/2 bg-gray-900 text-white p-2 sm:p-3 rounded-full z-10 hover:bg-gray-700 transition"
+        className="absolute top-1/2 left-2  text-black p-1 "
       >
-        <FaArrowLeft size={20} />
+        <ChevronLeftIcon className="w-5 h-5 sm:w-6 sm:h-6" />
       </button>
+
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 sm:right-5 transform -translate-y-1/2 bg-gray-900 text-white p-2 sm:p-3 rounded-full z-10 hover:bg-gray-700 transition"
+        className="absolute top-1/2 right-2  text-black"
       >
-        <FaArrowRight size={20} />
+        <ChevronRightIcon className="w-5 h-5 sm:w-6 sm:h-6" />
       </button>
 
       {/* Indicator Dots */}
@@ -60,7 +62,7 @@ const Slider = () => {
           <div
             key={index}
             className={`w-3 h-3 rounded-full ${
-              index === current ? "bg-white" : "bg-gray-500"
+              index === current ? "bg-pink-500" : "bg-white"
             }`}
           ></div>
         ))}
