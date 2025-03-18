@@ -58,7 +58,9 @@ const Navbar = () => {
             <li className="grid items-center">
               <MagnifyingGlassIcon
                 className={`icon-style ${
-                  navState && "text-slate-900 transition-all duration-300"
+                  navState && "text-slate-900 transition-all duration-300",
+                  navState ? "text-black" : "text-pink-500"
+
                 }`}
               />
             </li>
@@ -73,14 +75,16 @@ const Navbar = () => {
               >
                 <ShoppingBagIcon
                   className={`icon-style ${
-                    navState && "text-slate-900 transition-all duration-300"
+                    navState && "text-slate-900 transition-all duration-300",
+                    navState ? "text-black" : "text-pink-500"
+
                   }`}
                 />
                 <div
                   className={`absolute top-4 right-0 shadow w-4 h-4 text-[0.65rem] leading-tight font-medium rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-all duration-300 ${
                     navState
                       ? "bg-slate-900 text-slate-100 shadow-slate-900"
-                      : "bg-slate-100 text-slate-900 shadow-slate-100"
+                      : "bg-pink-500 text-white shadow-slate-100"
                   }`}
                 >
                   {totalQTY}
